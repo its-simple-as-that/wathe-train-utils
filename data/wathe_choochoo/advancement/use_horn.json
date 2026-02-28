@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "use_horn": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:goat_horn",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": {
+              "trainStart": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Send off the train on a dangerous journey.."
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:goat_horn"
+    },
+    "title": {
+      "text": "Train Conductor"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "use_horn"
+    ]
+  ],
+  "rewards": {
+    "function": "wathe_choochoo:init_train_start"
+  },
+  "sends_telemetry_event": false
+}
