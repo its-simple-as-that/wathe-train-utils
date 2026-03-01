@@ -1,6 +1,12 @@
-player 1 spawn in adventure
-player 2 spawn in adventure
-player 3 spawn in adventure
-player 4 spawn in adventure
-player 5 spawn in adventure
-player 6 spawn in adventure
+execute if score BotCount wathe_train_utils matches 1.. run player 1 spawn in adventure
+execute if score BotCount wathe_train_utils matches 2.. run player 2 spawn in adventure
+execute if score BotCount wathe_train_utils matches 3.. run player 3 spawn in adventure
+execute if score BotCount wathe_train_utils matches 4.. run player 4 spawn in adventure
+execute if score BotCount wathe_train_utils matches 5.. run player 5 spawn in adventure
+execute if score BotCount wathe_train_utils matches 6.. run player 6 spawn in adventure
+execute if score BotCount wathe_train_utils matches 7.. run player 7 spawn in adventure
+execute if score BotCount wathe_train_utils matches 8.. run player 8 spawn in adventure
+execute if score BotCount wathe_train_utils matches 9.. run player 9 spawn in adventure
+execute if score BotCount wathe_train_utils matches 10.. run player 10 spawn in adventure
+execute if score BotCount wathe_train_utils matches 11.. run player 11 spawn in adventure
+execute if score BotCount wathe_train_utils matches 12.. run player 12 spawn in adventure

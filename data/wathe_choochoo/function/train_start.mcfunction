@@ -1,3 +1,4 @@
+schedule clear wathe_choochoo:game_start_count_down
 execute store result score randomScene wathe_train_utils run random value 1..3
 execute store result storage wathe_choochoo:wathe_train_details data.time int 1 run scoreboard players get timeDuration wathe_train_utils
 tag @a[tag=Conductor] remove Conductor
