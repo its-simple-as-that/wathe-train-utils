@@ -39,7 +39,7 @@
     ]
   ],
   "rewards": {
-    "function": "wathe_choochoo:give_teleporter_horn_clamped"
+    "function": "wathe_choochoo:teleport_horn_get"
   },
   "sends_telemetry_event": false
 }

@@ -36,7 +36,7 @@
     ]
   ],
   "rewards": {
-    "function": "wathe_choochoo:give_conductor_horn_clamped"
+    "function": "wathe_choochoo:conductor_horn_get"
   },
   "sends_telemetry_event": false
 }
