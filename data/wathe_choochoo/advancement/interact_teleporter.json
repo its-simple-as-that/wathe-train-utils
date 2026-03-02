@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "interact_horn": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "team": "TrainConductor"
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": {
+            "Tags": [
+              "teleporterInteraction"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Sign up as the Player Teleporter"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:goat_horn"
+    },
+    "title": {
+      "text": "Psychic Mastermind"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "interact_horn"
+    ]
+  ],
+  "rewards": {
+    "function": "wathe_choochoo:give_teleporter_horn_clamped"
+  },
+  "sends_telemetry_event": false
+}

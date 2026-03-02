@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "interact_paper": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": {
+            "Tags": [
+              "trainWatcherInteraction"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Opt out of the train journeys."
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:paper"
+    },
+    "title": {
+      "text": "Unsigned Waiver"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "interact_paper"
+    ]
+  ],
+  "rewards": {
+    "function": "wathe_choochoo:watcher_setup"
+  },
+  "sends_telemetry_event": false
+}

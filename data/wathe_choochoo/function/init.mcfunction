@@ -2,6 +2,9 @@ data modify storage wathe_choochoo:wathe_train_details data set value {}
 team add TrainConductor "Train Conductor"
 team modify TrainConductor color gold
 team modify TrainConductor prefix {"text":"[Conductor] ","color": "#F88822"}
+team add TrainWatcher "Train Watcher"
+team modify TrainWatcher color blue
+team modify TrainWatcher prefix {"text":"[Watcher] ","color": "#5e43E9"}
 
 scoreboard objectives add wathe_train_utils dummy "Train Utilities"
 

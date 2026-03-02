@@ -1,3 +1,5 @@
+execute as @a[tag=trainWatcher] unless items entity @s hotbar.* goat_horn run clear @s goat_horn
+
 execute as @a if items entity @s hotbar.* goat_horn[custom_data={trainStart:true}] run tag @s add Conductor
 scoreboard players set ConductorNumber wathe_train_utils 0
 

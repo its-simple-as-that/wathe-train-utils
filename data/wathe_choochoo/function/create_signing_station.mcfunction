@@ -1,0 +1,3 @@
+execute at @s align xz run summon minecraft:interaction ~0.5 ~ ~0.5 {height:0.35f,width:0.8f,Tags:["trainPlayerInteraction"]}
+execute at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:item_display ~ ~0.5 ~ {item: {count: 1, id: "minecraft:dark_oak_pressure_plate"}}
+execute at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:item_display ~ ~0.0625 ~ {item: {count: 1, id: "minecraft:feather"}, transformation: {left_rotation: [0.021826481f, -0.6865699f, 0.7267306f, 0.0028426228f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.74999976f, 0.74999994f, 0.75000036f], translation: [0.0f, 0.0f, 0.0f]}}

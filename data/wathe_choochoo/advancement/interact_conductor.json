@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "interact_horn": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": {
+            "Tags": [
+              "conductorInteraction"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Sign up as the Train Conductor"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:goat_horn"
+    },
+    "title": {
+      "text": "Train Wrangler"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "interact_horn"
+    ]
+  ],
+  "rewards": {
+    "function": "wathe_choochoo:give_conductor_horn_clamped"
+  },
+  "sends_telemetry_event": false
+}

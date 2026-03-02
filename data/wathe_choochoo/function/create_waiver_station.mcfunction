@@ -1,0 +1,2 @@
+execute at @s align xz run summon minecraft:interaction ~0.5 ~ ~0.5 {height:0.15f,width:0.8f,Tags:["trainWatcherInteraction"]}
+execute at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:item_display ~ ~0.0625 ~ {item: {count: 1, id: "minecraft:paper"}, transformation: {left_rotation: [0.61237246f, 0.3535534f, -0.3535534f, 0.61237246f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.99999994f, 0.9999995f, 1.4999998f], translation: [0.0f, 0.0f, 0.0f]}}

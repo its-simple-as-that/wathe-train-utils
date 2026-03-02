@@ -1,0 +1,2 @@
+execute at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:item_display ~ ~0.375 ~ {item: {components: {"minecraft:instrument": "minecraft:ponder_goat_horn",enchantment_glint_override:true}, count: 1, id: "minecraft:goat_horn"}, transformation: {left_rotation: [0.0f, -0.3826835f, 0.0f, 0.9238795f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5000001f, 0.49999994f, 0.5000001f], translation: [0.0f, 0.0f, 0.0f]}}
+execute align xz run summon minecraft:interaction ~0.5 ~0.125 ~0.5 {height:0.5f,width:0.5f,Tags:["conductorInteraction"]}
