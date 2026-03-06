@@ -10,8 +10,6 @@ A Minecraft Datapack addon for the [Wathe](https://github.com/doctor4t/Wathe) mo
  - Adds Train Watchers - players who are exempt from the Teleporter's Horn (intended to allow people to remain outside the train to spectate / take a break)
  - Adds Interaction stations - a means to become a conductor/train watcher, using interaction and display entities. To place in world, use the appropriate create_interaction_station function.
  - Adds configurability with scoreboards:
-   - Time duration of sessions, 
-   - Modded/Vanilla Session compatibility (slightly buggy as of now), 
    - Maximum number of Conductors,
    - Game-Start Queue Duration,
    - No. of Fake-Players spawned using the debug function __summon_carpet_bot__ [REQUIRES CARPET TO WORK]
